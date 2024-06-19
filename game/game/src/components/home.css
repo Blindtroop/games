@@ -1,0 +1,44 @@
+/* Home.css */
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #000; /* Optional: background color for contrast */
+}
+
+.card-home {
+  width: 800px; /* Adjust the card width as needed */
+  height: 200px; /* Adjust the card height as needed */
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-image {
+  width: 100%; /* Adjust the image size as needed */
+  height: auto;
+}
+
+.floating-image {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px); /* Adjust the floating distance as needed */
+  }
+}
+
+/* Media query for devices with a width of 1024px */
+@media (max-width: 1024px) {
+  .card-image{
+    width:65%;
+  }
+}
