@@ -1,4 +1,4 @@
-GameSpot Clone
+**GameSpot Clone**
 This repository contains a clone of the GameSpot website, built as a demonstration of modern web development skills using React and Next.js. The site replicates key features of the original GameSpot platform, providing users with up-to-date gaming news, reviews, and game-related content, all with a focus on smooth user experience and responsive design.
 
 Live Demo
