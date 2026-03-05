@@ -59,19 +59,6 @@ const Contact = () => {
           <a href=""><FaGithub /></a>
         </div>
       </div>
-
-      <div className="content">
-        <img src={boyImage} alt="Debra Demba" />
-        <h3>DEBRA DEMBA</h3>
-        <p>GRAPHICS ADVISOR</p>
-        <div className="socials">
-          <a href=""><FaFacebook /></a>
-          <a href=""><FaInstagram /></a>
-          <a href=""><FaTwitter /></a>
-          <a href=""><FaWhatsapp /></a>
-          <a href=""><FaGithub /></a>
-        </div>
-      </div>
     </section>
   );
 };
